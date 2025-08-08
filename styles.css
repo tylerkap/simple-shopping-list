@@ -61,6 +61,7 @@ input {
     border: 1px solid black;
     margin-left: 15px;
     margin-right: 15px;
+    padding-left: 10px;
 }
 
 button {
@@ -93,7 +94,8 @@ button:active {
     width: 100%;
 
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .item {
@@ -101,10 +103,12 @@ button:active {
     /* background-color: yellow; */
     
     display: flex;
+    align-items: center;
 }
 
 .list-item {
     font-size: 18px;
+    margin-top: 5px;
     padding-left: 10px;
     padding-right: 25px;
 }
