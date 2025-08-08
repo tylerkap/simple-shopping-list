@@ -21,6 +21,7 @@ html, body {
     width: 550px;
     height: 600px;
     background-color: whitesmoke;
+    border-radius: 10px;
 
     display: flex;
     align-items: center;
@@ -107,6 +108,7 @@ button:active {
 }
 
 .list-item {
+    width: 330px; 
     font-size: 18px;
     margin-top: 5px;
     padding-left: 10px;
