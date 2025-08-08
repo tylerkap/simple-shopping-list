@@ -6,7 +6,7 @@ let unorderdList = document.querySelector("#list");
 
 submitButton.addEventListener('click', () => {
 
-    alert("Is this working?");
+    //alert("Is this working?");
     
     let div = document.createElement("div");
     let listItem = document.createElement("li");
@@ -18,7 +18,7 @@ submitButton.addEventListener('click', () => {
     deleteButton.textContent = "Delete";
 
     deleteButton.addEventListener('click', () => {
-        alert("DOES THIS WORK?");
+        //alert("DOES THIS WORK?");
         div.remove();
     });
 
